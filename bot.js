@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 
 const app = express();
-const port = 3000;
+const port = 9000;
 
 // Load environment variables
 dotenv.config();
@@ -58,7 +58,7 @@ const createCheckoutSession = async (chatId) => {
             line_items: [
                 {
                     price_data: {
-                        currency: 'usd',    
+                        currency: 'usd',
                         product_data: {
                             name: 'Daily Access to Bot',
                         },

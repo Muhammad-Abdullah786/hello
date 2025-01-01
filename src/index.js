@@ -8,7 +8,7 @@ dotenv.config();
 
 // Initialize Express app
 const app = express();
-const port = 3000;
+const port = 9000;
 
 // Set up routes
 app.use('/payment', paymentController); // Payment-related routes
